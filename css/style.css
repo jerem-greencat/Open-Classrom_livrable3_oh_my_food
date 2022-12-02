@@ -13,24 +13,31 @@
 
     /* Encart presentation & h1 & btn*/
 .presentation {
+    height: 250px;
     padding: 20px 0;
     margin: auto;
     text-align: center;
+    background: var(--scd-bg);
 }
 
     /* Sections */
 main section {
-    margin: 75px 25px;
+    margin: 45px 0 65px;
+}
+
+main section > div {
+    margin: 0 25px;
 }
 
     /* Encart fonctionnement */
-.fonctionnement div {
+.fonctionnement div div {
     margin: auto;
     border-radius: 20px;
     box-shadow: 0px 5px 10px 0px  var(--shadow-light);
     padding: 10px;
     margin-top: 30px;
     position: relative;
+    background: var(--scd-bg);
 }
 
 .fonctionnement p {
@@ -56,11 +63,71 @@ main section {
     padding: 0 15px 0 10px;
 }
 
-.fonctionnement div:hover i {
+.fonctionnement div div:hover i {
     color: var(--primary-color);
 }
 
-.fonctionnement div:hover {
+.fonctionnement div div:hover {
     background: var(--hover-fonctionnement);
     cursor: pointer;
+}
+
+    /* Section Restaurants */
+.restaurants {
+    background: var(--scd-bg);    
+    padding: 30px 0;
+}
+
+.restaurants .link_contenair {
+    width: 100%;
+    max-width: 320px;
+    border-radius: 20px;
+    overflow: hidden;
+    background: white;
+    position: relative;
+    margin-bottom: 15px;
+    box-shadow: 0px 5px 10px 0px  var(--shadow-light);
+}
+
+.restaurants .link_contenair a {
+    text-decoration: none;
+    color: inherit;
+    font-family: inherit;
+}
+
+.restaurants a div {
+    width: 100%; 
+}
+
+.restaurants img {
+    width: inherit;  
+    height: 175px;
+}
+
+.restaurants .new_span {
+    background: var(--tertiary-color);
+    position: absolute;
+    padding: 5px;
+    top: 5%;
+    right: 3%;
+    border-radius: 2px;
+}
+
+.restaurants .span_heart {
+    position: absolute;    
+    right: 5%;
+    border: 2px solid red;
+    top: 75%;
+}
+
+.restaurants p {
+    margin-top: -15px;
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+.restaurants .restaurant_name {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 12px;
 }

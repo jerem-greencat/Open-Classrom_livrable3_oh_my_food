@@ -3,7 +3,8 @@
 
 
 :root {
-    --location-bg: rgb(228, 227, 227) ;
+    --location-bg: #e4e3e3 ;
+    --scd-bg: #f3f3f3 ;
     --shadow-light: lightgrey;
     --primary-color: #9356DC;
     --secondary-color: #FF79DA;
