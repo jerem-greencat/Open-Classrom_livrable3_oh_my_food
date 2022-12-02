@@ -75,12 +75,12 @@ main section > div {
     /* Section Restaurants */
 .restaurants {
     background: var(--scd-bg);    
-    padding: 30px 0;
+    padding: 30px 0 50px;
+    margin-bottom: 0;
 }
 
 .restaurants .link_contenair {
     width: 100%;
-    max-width: 320px;
     border-radius: 20px;
     overflow: hidden;
     background: white;
@@ -97,11 +97,13 @@ main section > div {
 
 .restaurants a div {
     width: 100%; 
+    height: 175px;
 }
 
 .restaurants img {
-    width: inherit;  
-    height: 175px;
+    width: 100%;      
+    height: 100%;
+    object-fit: cover;
 }
 
 .restaurants .new_span {
@@ -131,3 +133,4 @@ main section > div {
     font-size: 1.2em;
     margin-top: 12px;
 }
+
