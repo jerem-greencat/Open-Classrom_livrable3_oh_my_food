@@ -1,0 +1,21 @@
+/* Accueil */
+    /* Encart location */
+.location {
+    background: var(--location-bg);
+    text-align: center;
+    padding: 2px 0;
+    box-shadow: 0px -2px 0px 0px var(--location-shadow);
+    font-size: 90%;
+}
+
+.location .fa-location-dot {
+    padding-right: 5px;
+}
+
+    /* Encart presentation h1 & btn */
+.presentation {
+    padding: 15px 0;
+    margin: auto;
+    text-align: center;
+    width: 75%;
+}
