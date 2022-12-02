@@ -3,19 +3,64 @@
 .location {
     background: var(--location-bg);
     text-align: center;
-    padding: 2px 0;
-    box-shadow: 0px -2px 0px 0px var(--location-shadow);
-    font-size: 90%;
+    padding: 1px 0;
+    box-shadow: 0px -2px 0px 0px var(--shadow-light);
 }
 
 .location .fa-location-dot {
     padding-right: 5px;
 }
 
-    /* Encart presentation h1 & btn */
+    /* Encart presentation & h1 & btn*/
 .presentation {
-    padding: 15px 0;
+    padding: 20px 0;
     margin: auto;
     text-align: center;
-    width: 75%;
+}
+
+    /* Sections */
+main section {
+    margin: 75px 25px;
+}
+
+    /* Encart fonctionnement */
+.fonctionnement div {
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0px 5px 10px 0px  var(--shadow-light);
+    padding: 10px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.fonctionnement p {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.fonctionnement span {
+    background: var(--primary-color);
+    color: white;
+    border-radius: 50%;
+    padding: 5px 10px;
+    font-weight: normal;
+    position: absolute;
+    top: 30%;
+    left: -3%;
+
+}
+
+.fonctionnement i {
+    color: grey;
+    font-size: 1.2em;
+    padding: 0 15px 0 10px;
+}
+
+.fonctionnement div:hover i {
+    color: var(--primary-color);
+}
+
+.fonctionnement div:hover {
+    background: var(--hover-fonctionnement);
+    cursor: pointer;
 }
