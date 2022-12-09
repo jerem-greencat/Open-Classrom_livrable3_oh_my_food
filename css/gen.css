@@ -5,11 +5,13 @@
 :root {
     --location-bg: #e4e3e3 ;
     --scd-bg: #f3f3f3 ;
+    --dark-bg: #333232;
     --shadow-light: lightgrey;
     --primary-color: #9356DC;
     --secondary-color: #FF79DA;
     --tertiary-color: #99E2D0;
     --hover-fonctionnement: #f1eeff;
+
 }
 
 body {
@@ -21,6 +23,7 @@ body {
 header {
     text-align: center;
     padding: 10px;
+    position: relative;
 }
 
 .header_logo {
@@ -46,5 +49,23 @@ h2 {
     font-size: initial;
 }
 
-.fix-img {
+.footer {
+    background: var(--dark-bg);
+    color: white;
+    padding: 5px 25px;
 }
+
+.footer h3 {
+    margin: 1em 0;
+    font-weight: initial;
+}
+
+.footer p {
+    margin: 0 0 0.5em 0;
+}
+
+.footer i {
+    padding: 0 8px 0 0;
+}
+
+/* Pages menu */
