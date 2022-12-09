@@ -44,6 +44,19 @@ header i {
     padding: 11px;
     margin: 0 0 11px 0;
     border-radius: 15px;
+    animation-duration: 4s;
+    animation-name: apparition;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0%;
+        margin-top: 50px;
+    }
+    to {
+        opacity: 100%;
+        margin-top: 0;
+    }
 }
 
 .main_menu .menu_content:last-of-type {
