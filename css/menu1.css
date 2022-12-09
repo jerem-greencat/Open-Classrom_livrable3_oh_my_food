@@ -12,7 +12,10 @@ header i {
 
 .main_menu img {
     width: 100%;
+    object-fit: cover;
+    height: 270px;
 }
+
 
 .main_menu section {
     background-color: white;
