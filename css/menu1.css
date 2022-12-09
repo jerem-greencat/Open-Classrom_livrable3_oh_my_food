@@ -3,6 +3,7 @@ header i {
     top: 35%;
     left: 5%;
     font-size: 20px;
+    color: black;
 }
 
 .main_menu img {
@@ -19,4 +20,47 @@ header i {
 
 .main_menu h1 {
     font-size: 1.8em;
+    margin: 0.9em 0;
+}
+
+.main_menu h2 {
+    text-transform: uppercase;
+    font-size: 1.1em;
+    font-weight: initial;
+    width: 40px;
+    padding: 1px 0 3px;
+    border-bottom: 3px solid var(--tertiary-color);
+}
+
+.main_menu .menu_content {
+    box-shadow: 0px 0px 50px 10px var(--shadow-light);
+    padding: 10px;
+    margin: 0 0 15px 0;
+    border-radius: 15px;
+}
+
+.main_menu .menu_content .menu_content_title {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.main_menu .menu_content div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_menu .menu_content p {
+    margin: 3px 0 0 0;
+}
+
+.main_menu .menu_content .menu_content_price {
+    font-weight: bold;
+}
+
+.main_menu .menu_content span {
+    display: none;
+}
+
+.main_menu .plat_title {
+    margin: 40px 30px 15px 30px;
 }
