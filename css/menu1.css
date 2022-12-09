@@ -6,6 +6,10 @@ header i {
     color: black;
 }
 
+.main_menu {
+    margin-bottom: -10px;
+}
+
 .main_menu img {
     width: 100%;
 }
@@ -34,9 +38,13 @@ header i {
 
 .main_menu .menu_content {
     box-shadow: 0px 0px 50px 10px var(--shadow-light);
-    padding: 10px;
-    margin: 0 0 15px 0;
+    padding: 11px;
+    margin: 0 0 11px 0;
     border-radius: 15px;
+}
+
+.main_menu .menu_content:last-of-type {
+    margin-bottom: 0;
 }
 
 .main_menu .menu_content .menu_content_title {
@@ -62,5 +70,33 @@ header i {
 }
 
 .main_menu .plat_title {
-    margin: 40px 30px 15px 30px;
+    margin: 45px 30px 15px 30px;
 }
+
+.main_menu .dessert_title {
+    margin-top: 40px;
+}
+
+.main_menu .bloc_btn_menu {
+    text-align: center;
+}
+
+.main_menu .btn_menu {
+    width: 200px;
+    margin: 30px 0 0 0;
+}
+
+.main_menu .btn_menu:hover {
+    opacity: 70%;
+}
+
+.main_menu .icon_heart {
+    position: absolute;
+    top: 45px;
+    right: 45px;
+}
+
+.footer_menu {
+    padding-bottom: 25px;
+}
+
