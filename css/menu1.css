@@ -41,11 +41,11 @@ header i {
 
 .main_menu .menu_content {
     box-shadow: 0px 0px 50px 10px var(--shadow-light);
-    padding: 11px;
     margin: 0 0 11px 0;
     border-radius: 15px;
     animation-duration: 4s;
     animation-name: apparition;
+    display: flex;
 }
 
 @keyframes apparition {
@@ -63,12 +63,20 @@ header i {
     margin-bottom: 0;
 }
 
+.main_menu .menu_content .menu_container {
+    padding: 11px;
+}
+
 .main_menu .menu_content .menu_content_title {
     font-weight: bold;
     font-size: 1.2em;
 }
 
-.main_menu .menu_content div {
+.main_menu .menu_content div:first-of-type {
+    width: 90%;
+}
+
+.main_menu .menu_content div div {
     display: flex;
     justify-content: space-between;
 }
@@ -81,9 +89,24 @@ header i {
     font-weight: bold;
 }
 
-.main_menu .menu_content span {
-    display: none;
+.main_menu .menu_content .bloc_circle {
+    padding: 11px;
+    background: var(--tertiary-color);
+    font-size: 25px;
+    color: white;
 }
+
+.main_menu .menu_content .bloc_circle i {
+    background-color: white;
+    color: var(--tertiary-color);
+    border-radius: 50%;
+}
+
+/* .main_menu .menu_content .bloc_circle {
+    display: none;
+} */
+
+
 
 .main_menu .plat_title {
     margin: 45px 30px 15px 30px;
@@ -108,8 +131,9 @@ header i {
 
 .main_menu .icon_heart {
     position: absolute;
-    top: 45px;
-    right: 45px;
+    top: 40px;
+    right: 40px;
+    font-size: 25px;
 }
 
 .footer_menu {

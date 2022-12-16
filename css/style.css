@@ -115,11 +115,17 @@ main section > div {
     border-radius: 2px;
 }
 
-.restaurants .span_heart {
-    position: absolute;    
-    right: 5%;
-    border: 2px solid red;
-    top: 75%;
+.restaurants .p_heart {
+    position: absolute;   
+    right: 7%;
+    top: 85%;
+    font-size: 25px; 
+}
+
+.restaurants .p_heart:hover .fa-regular{
+    
+    /* background ? */
+    color: linear-gradient(var(--primary-color), var(--secondary-color));
 }
 
 .restaurants p {
