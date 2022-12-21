@@ -90,21 +90,32 @@ header i {
 }
 
 .main_menu .menu_content .bloc_circle {
-    padding: 11px;
+    padding: 11px 20px;
     background: var(--tertiary-color);
     font-size: 25px;
     color: white;
+    border-radius: 0 15px 15px 0;
 }
 
 .main_menu .menu_content .bloc_circle i {
     background-color: white;
     color: var(--tertiary-color);
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 /* .main_menu .menu_content .bloc_circle {
     display: none;
 } */
+
+
+@keyframes validation-apparition {
+    from {
+        transform: rotate(180deg);
+    }
+    to {
+    }
+}
 
 
 
