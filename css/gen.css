@@ -48,6 +48,44 @@ h2 {
     font-size: initial;
 }
 
+
+.restaurants .p_heart,
+.main_menu .p_heart {
+    position: absolute;   
+    right: 7%;
+    top: 85%;
+    font-size: 25px; 
+    cursor: pointer;
+}
+.main_menu .p_heart {
+    position: absolute;   
+    right: 7%;
+    top: 1%;
+    font-size: 30px; 
+}
+
+.p_heart .fa-solid {
+    display: none;
+}
+
+.p_heart:hover .fa-regular {
+    display: none;
+}
+
+.p_heart:hover .fa-solid{
+    display: block;
+}
+
+
+.fa-heart {
+    background: linear-gradient(var(--primary-color), var(--secondary-color));
+    background-size: cover;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: 1px solid linear-gradient(var(--primary-color), var(--secondary-color)) ;
+}
+
+
 .footer {
     background: var(--dark-bg);
     color: white;

@@ -115,35 +115,6 @@ main section > div {
     border-radius: 2px;
 }
 
-.restaurants .p_heart {
-    position: absolute;   
-    right: 7%;
-    top: 85%;
-    font-size: 25px; 
-}
-.fa-solid {
-    display: none;
-}
-
-.restaurants .p_heart:hover .fa-regular {
-    display: none;
-    transition-duration: 2s;
-}
-
-.restaurants .p_heart:hover .fa-solid {
-    display: block;
-    transition-duration: 2s;
-}
-
-
-.fa-heart {
-    background: linear-gradient(var(--primary-color), var(--secondary-color));
-    background-size: cover;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: 1px solid linear-gradient(var(--primary-color), var(--secondary-color)) ;
-}
-
 
 /*     -webkit-background-clip: text; */
 
