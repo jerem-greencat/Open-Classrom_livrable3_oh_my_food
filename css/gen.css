@@ -13,10 +13,75 @@
     --hover-fonctionnement: #f1eeff;
 }
 
+/* Loader */
+
+.loaderContenair {
+ 
+    position: fixed;
+    top: 50vh;
+    left: 50vw;
+}
+
+.loader {
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid var(--secondary-color);
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    animation: spin 2s linear;
+    margin: auto;
+    visibility: hidden;   
+}
+
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+        display: block;
+        visibility:visible;
+    }
+    99%{
+        transform: rotate(359deg);
+        display: block;
+        visibility:visible;
+        width: 25px;
+        height: 25px;
+    }
+    to {
+        transform: rotate(360deg);
+        visibility:hidden;
+        display:none;
+        height:0;
+        width:0;
+    }
+}
+
+
+
+
 body {
     font-family: 'Roboto', sans-serif;
     width: 100%;
     font-size: 95%;
+}
+
+@keyframes visibility {
+    0% {
+        visibility: hidden;
+    }
+    99% {
+        visibility: hidden;
+    }
+    to {
+        visibility: visible;
+    }
+}
+
+.bodyIndex {
+    visibility: visible;
+    animation: visibility 2s linear;
 }
 
 header {
