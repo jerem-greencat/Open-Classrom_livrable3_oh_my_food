@@ -23,13 +23,13 @@
 }
 
 .loader {
-    border: 2px solid #f3f3f3; /* Light grey */
-    border-top: 2px solid var(--secondary-color);
+    border: 3px solid #f3f3f3; /* Light grey */
+    border-top: 3px solid var(--secondary-color);
     border-radius: 50%;
     width: 25px;
     height: 25px;
     justify-content: center;
-    animation: spin 2s linear;
+    animation: spin 3s linear;
     margin: auto;
     visibility: hidden;   
 }
@@ -81,7 +81,7 @@ body {
 
 .bodyIndex {
     visibility: visible;
-    animation: visibility 2s linear;
+    animation: visibility 3s linear;
 }
 
 header {
