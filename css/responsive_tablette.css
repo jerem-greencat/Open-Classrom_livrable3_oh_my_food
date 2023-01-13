@@ -1,4 +1,39 @@
 
 @media screen and (min-width: 500px) {
-    
+
+    /* Responsive accueil */
+    .header_logo {
+        max-width: 300px;
+    }
+
+    .bodyIndex h2 {
+        text-align: center;
+    }
+
+    .fonctionnement div div {
+        max-width: 400px;
+    }
+
+    .restaurants .link_contenair {
+        max-width: 500px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    .footer div {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .footer h3,
+    .footer p {
+        margin: 1em;
+    }
+
+    /* responsive menu */
+
+    .main_menu .menu_content {
+        max-width: 700px;
+        margin: 5px auto;
+    }
 }

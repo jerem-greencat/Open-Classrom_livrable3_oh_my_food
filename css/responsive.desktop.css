@@ -1,4 +1,54 @@
 
 @media screen and (min-width: 992px) {
-    
+    .header_logo {
+        max-width: 300px;
+    }
+
+    .presentation {
+        height: 180px;
+    }
+
+    main section.fonctionnement > div {
+        display: flex;
+        justify-content: space-between;
+        max-width: none;
+    }
+
+    main section.fonctionnement h2 {
+        align-self: end;
+    }
+
+    main section.fonctionnement p {
+        padding-left: 0;
+    }
+
+
+    main section.restaurants {
+        padding: 30px 0;
+    }
+
+    main section.restaurants > div {
+        display: flex;
+        gap: 15px;
+        
+    }
+
+    main section.restaurants > div h2 {
+        align-self: center;
+    }
+
+    .footer h3, .footer p {
+        text-align: center;
+    }
+
+    /* Responsive menu */
+    .main_menu .plat_title {
+        margin: 0.83em 0;
+    }
+
+    .main_menu section {
+        width: 80%;
+        margin: auto;
+        max-width: 900px;
+    }
 }
