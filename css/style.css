@@ -25,6 +25,9 @@ main section {
     margin: 45px 0 65px;
 }
 
+main section h2 {
+    margin: 25px;
+}
 main section > div {
     margin: 0 25px;
 }

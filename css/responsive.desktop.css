@@ -8,10 +8,18 @@
         height: 180px;
     }
 
+    .bodyIndex h2 {
+        text-align: start;
+    }
+
     main section.fonctionnement > div {
         display: flex;
         justify-content: space-between;
         max-width: none;
+    }
+
+    .fonctionnement div div {
+        margin-top: 0;
     }
 
     main section.fonctionnement h2 {
