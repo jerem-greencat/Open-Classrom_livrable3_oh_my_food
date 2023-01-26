@@ -147,7 +147,6 @@ h2 {
     background-size: cover;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    border: 1px solid linear-gradient(var(--primary-color), var(--secondary-color)) ;
 }
 
 

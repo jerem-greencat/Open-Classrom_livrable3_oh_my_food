@@ -74,6 +74,9 @@ header i {
 .main_menu .menu_content .menu_content_title {
     font-weight: bold;
     font-size: 1.2em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .main_menu .menu_content div:first-of-type {
@@ -87,10 +90,14 @@ header i {
 
 .main_menu .menu_content p {
     margin: 3px 0 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .main_menu .menu_content .menu_content_price {
     font-weight: bold;
+    overflow: visible;
 }
 
 .main_menu .menu_content .bloc_circle {
